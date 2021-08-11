@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Work+Sans:wght@900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: transparent radial-gradient(closest-side at 50% 50%, #58687E 0%, #39495E 100%) 0% 0% no-repeat padding-box;
+  font-family: 'Ubuntu', sans-serif;
+  overflow: hidden;
+  padding-left: 30px;
+  padding-right: 30px;
+}

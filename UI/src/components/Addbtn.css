@@ -1,0 +1,18 @@
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    
+}
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+    cursor: pointer;
+    
+}
+
+::-webkit-datetime-edit-year-field:not([aria-valuenow]),
+::-webkit-datetime-edit-month-field:not([aria-valuenow]),
+::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
+    color: transparent;
+}
+
+input[type="date"]:in-range::-webkit-datetime-edit-year-field, input[type="date"]:in-range::-webkit-datetime-edit-month-field, input[type="date"]:in-range::-webkit-datetime-edit-day-field, input[type="date"]:in-range::-webkit-datetime-edit-text { 	
+    color: transparent; 
+}
